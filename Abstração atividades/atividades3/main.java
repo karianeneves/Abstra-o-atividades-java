@@ -5,7 +5,7 @@ public class Main {
         
        
         Prato prato1 = new Prato("Macarrão", 35.50);
-        Prato prato2 = new Prato("Salada Caesar", 25.00);
+        Prato prato2 = new Prato("Arroz", 25.00);
 
         Pedido pedido1 = new Pedido(cliente1);
 
@@ -14,4 +14,5 @@ public class Main {
         
         pedido1.exibirPedido();
     }
+
 }

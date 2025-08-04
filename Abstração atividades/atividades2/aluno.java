@@ -5,10 +5,10 @@ public class Aluno {
     String matricula;
     ArrayList<Float> notas;
 
-    public Aluno(String nome, String matricula) {
-        this.nome = nome;
-        this.matricula = matricula;
-        this.notas = new ArrayList<>();
+    public Aluno(String novonome, String novamatricula) {
+        nome = novonome;
+        matricula = novamatricula;
+        notas = new ArrayList<>();
     }
 
     public void adicionarNota(float nota) {
@@ -32,4 +32,5 @@ public class Aluno {
         System.out.println("Notas: " + notas);
         System.out.printf("Média: %.2f\n", calcularMedia());
     }
+
 }

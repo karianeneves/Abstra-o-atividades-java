@@ -5,9 +5,9 @@ public class Departamento {
     String nome;
     List<Funcionario> funcionarios;
 
-    public Departamento(String nome) {
-        this.nome = nome;
-        this.funcionarios = new ArrayList<>();
+    public Departamento(String novonome) {
+        nome = novonome;
+        funcionarios = new ArrayList<>();
     }
 
     public void adicionarFuncionario(Funcionario funcionario) {
@@ -21,4 +21,5 @@ public class Departamento {
             System.out.println("- " + f.nome);
         }
     }
+
 }

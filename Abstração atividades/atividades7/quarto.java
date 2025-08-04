@@ -3,10 +3,10 @@ public class Quarto {
     String tipo;
     String status;
 
-    public Quarto(int numero, String tipo, String status) {
-        this.numero = numero;
-        this.tipo = tipo;
-        this.status = status;
+    public Quarto(int novonumero, String novotipo, String novostatus) {
+        numero = novonumero;
+        tipo = novotipo;
+        status = novostatus;
     }
 
     public void exibirDados() {
@@ -14,4 +14,5 @@ public class Quarto {
         System.out.println("Tipo: " + tipo);
         System.out.println("Status: " + status);
     }
+
 }

@@ -3,13 +3,14 @@ public class Animal {
     String especie;
     int idade;
 
-    public Animal(String nome, String especie, int idade) {
-        this.nome = nome;
-        this.especie = especie;
-        this.idade = idade;
+    public Animal(String nnome, String nespecie, int nidade) {
+        nome = nnome;
+        especie = nespecie;
+        idade = nidade;
     }
 
     public void fazerBarulho() {
         System.out.println(nome + " faz um barulho!");
     }
+
 }

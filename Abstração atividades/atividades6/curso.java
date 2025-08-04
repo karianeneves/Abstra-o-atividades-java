@@ -3,10 +3,10 @@ public class Curso {
     String codigo;
     int cargaHoraria;
 
-    public Curso(String nome, String codigo, int cargaHoraria) {
-        this.nome = nome;
-        this.codigo = codigo;
-        this.cargaHoraria = cargaHoraria;
+    public Curso(String novonome, String novocodigo, int novacargaHoraria) {
+        nome = novonome;
+        codigo = novocodigo;
+        cargaHoraria = novacargaHoraria;
     }
 
     public void exibirDados() {
@@ -14,4 +14,5 @@ public class Curso {
         System.out.println("Código: " + codigo);
         System.out.println("Carga Horária: " + cargaHoraria + " horas");
     }
+
 }

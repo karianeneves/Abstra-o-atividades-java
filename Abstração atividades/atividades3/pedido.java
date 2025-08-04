@@ -5,9 +5,9 @@ public class Pedido {
     Cliente cliente;
     List<Prato> listaDePratos;
 
-    public Pedido(Cliente cliente) {
-        this.cliente = cliente;
-        this.listaDePratos = new ArrayList<>();
+    public Pedido(Cliente novocliente) {
+        cliente = novocliente;
+        listaDePratos = new ArrayList<>();
     }
 
     public void adicionarPrato(Prato prato) {
@@ -23,4 +23,5 @@ public class Pedido {
         }
         System.out.println(" ");
     }
+
 }

@@ -4,11 +4,11 @@ public class Reserva {
     String dataEntrada;
     String dataSaida;
 
-    public Reserva(Quarto quarto, Hospede hospede, String dataEntrada, String dataSaida) {
-        this.quarto = quarto;
-        this.hospede = hospede;
-        this.dataEntrada = dataEntrada;
-        this.dataSaida = dataSaida;
+    public Reserva(Quarto nquarto, Hospede nhospede, String ndataEntrada, String ndataSaida) {
+        quarto = nquarto;
+        hospede = nhospede;
+        dataEntrada = ndataEntrada;
+        dataSaida = ndataSaida;
     }
 
     public void exibirDados() {
@@ -19,4 +19,5 @@ public class Reserva {
         System.out.println("Saída: " + dataSaida);
         System.out.println("  ");
     }
+
 }

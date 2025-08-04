@@ -3,10 +3,10 @@ public class Livro {
     String autor;
     String ISBN;
 
-    public Livro(String titulo, String autor, String ISBN) {
-        this.titulo = titulo;
-        this.autor = autor;
-        this.ISBN = ISBN;
+    public Livro(String novotitulo, String novoautor, String novoISBN) {
+        titulo = novotitulo;
+        autor = novoautor;
+        ISBN = novoISBN;
     }
 
     public void exibirDados() {
@@ -14,4 +14,5 @@ public class Livro {
         System.out.println("Autor: " + autor);
         System.out.println("ISBN: " + ISBN);
     }
+
 }
